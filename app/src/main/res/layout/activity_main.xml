@@ -35,7 +35,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/green">
 
         <!-- First row -->
         <LinearLayout
@@ -58,14 +59,15 @@
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_facilities"
                     android:scaleType="fitCenter"
-                    android:background="@android:color/darker_gray"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="Facilities" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Facilities" />
+                    android:text="Facilities"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
@@ -83,14 +85,15 @@
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_events"
                     android:scaleType="fitCenter"
-                    android:background="@android:color/darker_gray"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="Events" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Events" />
+                    android:text="Events"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
@@ -117,14 +120,15 @@
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_clubs"
                     android:scaleType="fitCenter"
-                    android:background="@android:color/darker_gray"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="Clubs" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Clubs" />
+                    android:text="Clubs"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
@@ -142,14 +146,15 @@
                     android:layout_weight="1"
                     android:src="@drawable/img_btn_support"
                     android:scaleType="fitCenter"
-                    android:background="@android:color/darker_gray"
+                    android:background="@drawable/button_selector"
                     android:contentDescription="Support" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Support" />
+                    android:text="Support"
+                    android:textColor="@android:color/white"/>
 
             </LinearLayout>
 
