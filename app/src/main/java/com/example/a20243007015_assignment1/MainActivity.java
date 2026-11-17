@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.Toast;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,23 +27,28 @@ public class MainActivity extends AppCompatActivity {
 
     // facilities button
     public void openFacilities(View view) {
-        Toast.makeText(this, "Facilities clicked",
-                Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("topic_id", 0);
+        startActivity(intent);
     }
-    // event button
+    // events button
     public void openEvents(View view) {
-        Toast.makeText(this, "Events clicked",
-                Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("topic_id", 1);
+        startActivity(intent);
     }
-    // club button
+    // clubs button
     public void openClubs(View view) {
-        Toast.makeText(this, "Clubs clicked",
-                Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("topic_id", 2);
+        startActivity(intent);
     }
-    //support button
+    // support button
     public void openSupport(View view) {
-        Toast.makeText(this, "Support clicked",
-                Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DetailActivity.class);
+        intent.putExtra("topic_id", 3);
+        startActivity(intent);
     }
+
 
 }
