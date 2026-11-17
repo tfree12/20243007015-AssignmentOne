@@ -52,7 +52,8 @@
                 android:src="@drawable/img_btn_facilities"
                 android:scaleType="fitCenter"
                 android:background="@drawable/button_selector"
-                android:contentDescription="Facilities" />
+                android:contentDescription="Facilities"
+                android:onClick="openFacilities"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -78,7 +79,8 @@
                 android:src="@drawable/img_btn_events"
                 android:scaleType="fitCenter"
                 android:background="@drawable/button_selector"
-                android:contentDescription="Events" />
+                android:contentDescription="Events"
+                android:onClick="openEvents"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -104,7 +106,8 @@
                 android:src="@drawable/img_btn_clubs"
                 android:scaleType="fitCenter"
                 android:background="@drawable/button_selector"
-                android:contentDescription="Clubs" />
+                android:contentDescription="Clubs"
+                android:onClick="openClubs"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -130,7 +133,8 @@
                 android:src="@drawable/img_btn_support"
                 android:scaleType="fitCenter"
                 android:background="@drawable/button_selector"
-                android:contentDescription="Support" />
+                android:contentDescription="Support"
+                android:onClick="openSupport"/>
 
             <TextView
                 android:layout_width="match_parent"

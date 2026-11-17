@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,4 +23,26 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+
+    // facilities button
+    public void openFacilities(View view) {
+        Toast.makeText(this, "Facilities clicked",
+                Toast.LENGTH_SHORT).show();
+    }
+    // event button
+    public void openEvents(View view) {
+        Toast.makeText(this, "Events clicked",
+                Toast.LENGTH_SHORT).show();
+    }
+    // club button
+    public void openClubs(View view) {
+        Toast.makeText(this, "Clubs clicked",
+                Toast.LENGTH_SHORT).show();
+    }
+    //support button
+    public void openSupport(View view) {
+        Toast.makeText(this, "Support clicked",
+                Toast.LENGTH_SHORT).show();
+    }
+
 }
