@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green">#1B5E20</color>
     <color name="light_green">#66BB6A</color>
+    <color name="banner_overlay">#66000000</color>
 </resources>
